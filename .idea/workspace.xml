@@ -34,13 +34,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dad83367-40f3-4b6b-8ba0-a442ac9e3231" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cs2100-list-RenzoT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linklist.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForwardIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs2100_list_RenzoT.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cs2100_list_RenzoT.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cs2100_list_RenzoT.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linklist.h" beforeDir="false" afterPath="$PROJECT_DIR$/linklist.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.h" beforeDir="false" afterPath="$PROJECT_DIR$/node.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,20 +71,77 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="51">
-                <caret line="3" column="170" lean-forward="true" selection-start-line="3" selection-start-column="170" selection-end-line="3" selection-end-column="170" />
+                <caret line="3" column="170" selection-start-line="3" selection-start-column="170" selection-end-line="3" selection-end-column="170" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="192" column="18" lean-forward="true" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+              <folding>
+                <element signature="e#111#128#0" expanded="true" />
+                <element signature="e#178#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/avr.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-877">
+              <caret line="307" column="10" selection-start-line="307" selection-start-column="4" selection-end-line="307" selection-end-column="10" />
+              <folding>
+                <element signature="e#50#62#0" expanded="true" />
+                <element signature="e#371#384#0" expanded="true" />
+                <element signature="e#545#557#0" expanded="true" />
+                <element signature="e#825#838#0" expanded="true" />
+                <element signature="e#1046#1058#0" expanded="true" />
+                <element signature="e#1351#1364#0" expanded="true" />
+                <element signature="e#1606#1621#0" expanded="true" />
+                <element signature="e#2032#2047#0" expanded="true" />
+                <element signature="e#2841#2854#0" expanded="true" />
+                <element signature="e#3306#3331#0" expanded="true" />
+                <element signature="e#3410#3423#0" expanded="true" />
+                <element signature="e#3528#3541#0" expanded="true" />
+                <element signature="e#3648#3663#0" expanded="true" />
+                <element signature="e#4386#4400#0" expanded="true" />
+                <element signature="e#6158#6171#0" expanded="true" />
+                <element signature="e#6672#6721#0" expanded="true" />
+                <element signature="e#7153#7188#0" expanded="true" />
+                <element signature="e#7616#7651#0" expanded="true" />
+                <element signature="e#7862#7878#0" expanded="true" />
+                <element signature="e#7889#7903#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ForwardIterator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#160#172#0" expanded="true" />
+                <element signature="e#320#332#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,35 +150,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="262">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#129#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linklist.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="151" selection-start-line="151" selection-end-line="151" />
-              <folding>
-                <element signature="e#128#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="84" column="27" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="27" />
-              <folding>
-                <element signature="e#119#131#0" expanded="true" />
-                <element signature="e#1755#1769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,9 +164,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>size</find>
+      <find>linklit</find>
+      <find>index</find>
+      <find>data</find>
+      <find>[]</find>
+      <find>inline</find>
     </findStrings>
     <replaceStrings>
       <replace>l_size</replace>
+      <replace>i</replace>
+      <replace>value</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,11 +183,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/linklist.cpp" />
-        <option value="$PROJECT_DIR$/node.h" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/list.h" />
+        <option value="$PROJECT_DIR$/node.h" />
         <option value="$PROJECT_DIR$/linklist.h" />
+        <option value="$PROJECT_DIR$/avr.cpp" />
+        <option value="$PROJECT_DIR$/ForwardIterator.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/list.h" />
       </list>
     </option>
   </component>
@@ -212,30 +259,35 @@
       <updated>1586805192582</updated>
       <workItem from="1586805195602" duration="4864000" />
       <workItem from="1586987967807" duration="51000" />
-      <workItem from="1587414689376" duration="8063000" />
+      <workItem from="1587414689376" duration="8771000" />
+      <workItem from="1588018985608" duration="2214000" />
+      <workItem from="1588295379480" duration="831000" />
+      <workItem from="1589216529342" duration="9430000" />
+      <workItem from="1589525947960" duration="91000" />
+      <workItem from="1589600029210" duration="4140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12978000" />
+    <option name="totallyTimeSpent" value="30392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="TeamCity" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32872504" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.1797235" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -251,10 +303,14 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/linklist.cpp">
+    <entry file="file://$PROJECT_DIR$/linklist.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linklist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="136">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -262,52 +318,86 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="51">
-            <caret line="3" column="170" lean-forward="true" selection-start-line="3" selection-start-column="170" selection-end-line="3" selection-end-column="170" />
+            <caret line="3" column="170" selection-start-line="3" selection-start-column="170" selection-end-line="3" selection-end-column="170" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="262">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#129#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="27" />
-          <folding>
-            <element signature="e#119#131#0" expanded="true" />
-            <element signature="e#1755#1769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linklist.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="e#128#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForwardIterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#160#172#0" expanded="true" />
+            <element signature="e#320#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-877">
+          <caret line="307" column="10" selection-start-line="307" selection-start-column="4" selection-end-line="307" selection-end-column="10" />
+          <folding>
+            <element signature="e#50#62#0" expanded="true" />
+            <element signature="e#371#384#0" expanded="true" />
+            <element signature="e#545#557#0" expanded="true" />
+            <element signature="e#825#838#0" expanded="true" />
+            <element signature="e#1046#1058#0" expanded="true" />
+            <element signature="e#1351#1364#0" expanded="true" />
+            <element signature="e#1606#1621#0" expanded="true" />
+            <element signature="e#2032#2047#0" expanded="true" />
+            <element signature="e#2841#2854#0" expanded="true" />
+            <element signature="e#3306#3331#0" expanded="true" />
+            <element signature="e#3410#3423#0" expanded="true" />
+            <element signature="e#3528#3541#0" expanded="true" />
+            <element signature="e#3648#3663#0" expanded="true" />
+            <element signature="e#4386#4400#0" expanded="true" />
+            <element signature="e#6158#6171#0" expanded="true" />
+            <element signature="e#6672#6721#0" expanded="true" />
+            <element signature="e#7153#7188#0" expanded="true" />
+            <element signature="e#7616#7651#0" expanded="true" />
+            <element signature="e#7862#7878#0" expanded="true" />
+            <element signature="e#7889#7903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="192" column="18" lean-forward="true" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+          <folding>
+            <element signature="e#111#128#0" expanded="true" />
+            <element signature="e#178#190#0" expanded="true" />
           </folding>
         </state>
       </provider>

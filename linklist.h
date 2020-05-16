@@ -12,16 +12,22 @@ class linklist: public List<T> {
 public:
     linklist() : List<T>() {}
 
-    T front(void){
+    T front(){
         if(this->head != nullptr) return this->head->value;
     }
-    T back(void){
+    T back(){
         if(this->tail != nullptr) return this->tail->value;
     }
 
+    template <typename _T>
+    inline friend ostream& operator<< (ostream& _out, const Node<T>& _node){
+        _out << "Nodo: [v: " <<  _node.value << ", p: " << _node.next << "]";
+        return _out;
+    }
+
     void push_back(const T& element){
-        Node<T>* new_node = new Node<T>(element);
-        if(this->head == nullptr){
+        auto new_node = new Node<T>(element);
+        if(empty()){
             this->head = new_node;
             this->tail = new_node;
         } else {
@@ -32,9 +38,9 @@ public:
         (this->l_size)++;
     }
 
-    virtual void push_front(const T& element){
-        Node<T>* new_node = new Node<T>(element);
-        if (this->head == nullptr){
+    virtual void push_front(T element){
+        auto new_node = new Node<T>(element);
+        if (empty()){
             this->head = new_node;
             this->tail = new_node;
         } else {
@@ -45,7 +51,7 @@ public:
         (this->l_size)++;
     }
 
-    virtual T& pop_back(void){
+    virtual T& pop_back(){
         if (this->head != nullptr){
             Node<T>* holder = this->tail;
             this->tail = this->tail->prev;
@@ -56,7 +62,7 @@ public:
     }
 
     virtual T& pop_front(void){
-        if (this->head != nullptr){
+        if (empty()){
             Node<T>* holder = this->head;
             this->head = this->tail->next;
             this->head->prev = nullptr;
@@ -74,15 +80,15 @@ public:
         }
     }
 
-    bool empty(void){
+    bool empty(){
         return this->head == nullptr;
     }
 
-    unsigned int size(void){
-        return this->size();
+    unsigned int size(){
+        return this->l_size;
     }
 
-    void clear(void){
+    void clear(){
         this->tail = nullptr;
         this->head->deleteNode();
         this->head = nullptr;
@@ -118,25 +124,10 @@ public:
     }
 
     void remove(const T& element){
-        if (!empty()) {
-            Node<T>* holder = new Node{0, this->head};
-            while (holder->next != nullptr) {
-                if (holder->next->value == element) {
-                    auto temp = holder->next;
-                    if (holder->next == this->head)
-                        this->head = temp->next;
-                    if (holder->next == this->tail){
-                        this->tail = holder;
-                        this-> tail -> next = nullptr;
-                        delete temp;
-                        break;
-                    }
-                    holder->next = temp->next;
-                    delete temp;
-                    (this->l_size)--;
-                }
-                else
-                    holder = holder->next;
+        Node<T> * holder = this->head;
+        while(holder->next != nullptr){
+            if(holder->value == element){
+                holder->value = NULL;
             }
         }
     }

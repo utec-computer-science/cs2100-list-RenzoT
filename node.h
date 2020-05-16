@@ -7,14 +7,13 @@
 // Node.h
 template <typename T>
 class Node {
-protected:
+public:
     T value;
     Node<T> * next;
     Node<T> * prev;
 
 public:
-    Node(T value){this->value=value; this->next= nullptr; this->prev= nullptr;}
-
+    Node(T value): value(value), next(nullptr), prev(nullptr){};
     void deleteNode(){
         if (next != nullptr)
             next->deleteNode();

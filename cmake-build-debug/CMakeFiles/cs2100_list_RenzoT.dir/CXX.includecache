@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Renzo/Documents/GitHub/cs2100-list-RenzoT/list.h
+node.h
+C:/Users/Renzo/Documents/GitHub/cs2100-list-RenzoT/node.h
+iostream
+-
+ostream
+-
+
 C:/Users/Renzo/Documents/GitHub/cs2100-list-RenzoT/main.cpp
 iostream
 -
+node.h
+C:/Users/Renzo/Documents/GitHub/cs2100-list-RenzoT/node.h
+list.h
+C:/Users/Renzo/Documents/GitHub/cs2100-list-RenzoT/list.h
+
+C:/Users/Renzo/Documents/GitHub/cs2100-list-RenzoT/node.h
 
